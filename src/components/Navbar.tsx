@@ -36,7 +36,6 @@ const Navbar = ({ activeSection }: NavbarProps) => {
     { href: "#home", label: "Home", section: "home" },
     { href: "#skills", label: "Skills", section: "skills" },
     { href: "#projects", label: "Projects", section: "projects" },
-    { href: "#articles", label: "Articles", section: "articles" },
     { href: "#about", label: "About", section: "about" },
     { href: "#contact", label: "Contact", section: "contact" }
   ];

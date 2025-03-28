@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Articles from "@/components/Articles";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -17,7 +16,7 @@ const Index = () => {
     setMounted(true);
     
     const handleScroll = () => {
-      const sections = ["home", "skills", "projects", "articles",  "about", "contact"];
+      const sections = ["home", "skills", "projects",  "about", "contact"];
       
       const currentPosition = window.scrollY + 100;
       
@@ -57,7 +56,6 @@ const Index = () => {
         <Hero />
         <Skills />
         <Projects />
-        <Articles />
         <About />
         <Contact />
       </main>

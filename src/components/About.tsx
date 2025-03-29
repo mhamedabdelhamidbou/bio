@@ -7,11 +7,7 @@ const About = () => {
   const [activeTab, setActiveTab] = useState("experience");
   
   const experiences = [
-    {
-      title: "PFA - ORACLE CAPITAL",
-      period: "Ingénieur produits structurés  (Mars 2025 - Aujourd'hui)",
-      description: "Analyse des Produits Structurés : Pricing et Couverture des Autocalls Adossés aux Indices Boursiers."
-    },
+  
     {
       title: "Stage - MODERN BUILDING ART",
       period: "Analyste financier  (Juil - Août 2022)",
